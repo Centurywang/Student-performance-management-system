@@ -3,7 +3,7 @@ import pymysql
 class UsePyMysql():
     def __init__(self):
         # 连接
-        self.db = pymysql.connect(host='39.106.205.225', port=3306, db='wsj', user='wsj', passwd='wangshiji',
+        self.db = pymysql.connect(host='', port=3306, db='', user='', passwd='',
                              charset='utf8')
         # 使用cursor()方法获取操作游标
         self.cursor = self.db.cursor()
